@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+   
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://platform.linkedin.com "> -->
+  <head>
+    <title>Socket.IO Example</title>
+  </head>
+  <body>
+    <p id="text">nice</p>
+    <script src="/socket.io/socket.io.js" ></script>
+    <script>
+    // let post = [];
+        let data = {
+            from : "5fd9ff89abfec0045c0f60fa",
+            to:"5f97ef85c843b863f4559938",
+            message : "new message with image",
+            // createdAt : "2020-12-21",
+            image : "https://booking-app.mmcgbl.com/assets/images/Screenshot_20201229-131519_Call_1609502407084.jpg"
+          
+
+        }
+      var socket = io('http://35.178.205.72:5013');
+      // var socket = io('http://192.168.0.188:8080');
+    socket.emit("view_notification" , "600539b6e5c48628144ce188");
+    socket.on("receive-message" , (data)=>{
+        console.log("data" , data)
+    })
+
+      socket.emit("send-message"  , data)
+//       socket.emit("post" ,data) 
+//       socket.on("get-post", async (data) => {
+//         console.log("resal time", data);
+//         post = [...post , data];
+//       });
+//       setTimeout(() => {
+             
+// console.log("post" , post);
+//       }, 5000);
+
+    //   socket.emit("all-post" , {crypto_currency : "bitCoin"});
+    //   socket.on('get-all-post' , async(data)=>{
+    //       console.log("all-post" , data);
+    //   })
+      
+    //   socket.emit("like" , {post_id : "5ec3c1952869353bb42364c9" , user_id:"5ec3b0b5984297336c676b5e"});
+    //   socket.on('get-likes' , async(data)=>{
+    //       console.log("all-likes" , data);
+    //   })
+
+    // socket.emit("comment" , {post_id : "5ec3c1952869353bb42364c9" , user_id:"5ec3b0b5984297336c676b5e" , comment : "m first comment"});
+    //   socket.on('get-comment' , async(data)=>{
+    //       console.log("all-coment" , data);
+    //   })
+    
+    // socket.emit("vote" , {post_id : "5ec3c1952869353bb42364c9" , user_id:"5ec3b0b5984297336c676b5e"     });
+    //   socket.on('get-vote' , async(data)=>{
+    //       console.log("all-vote" , data);
+    //   })
+    
+
+    //   socket.emit("" , {post_id : "" , user_id:"5ec3b0b5984297336c676b5e"});
+    //   socket.on('get-likes' , async(data)=>{
+    //       console.log("all-post" , data);
+    //   })
+      
+
+
+    </script>
+  </body>
+</html>

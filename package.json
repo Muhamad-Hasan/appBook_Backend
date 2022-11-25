@@ -1,0 +1,42 @@
+{
+  "name": "appbook",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "server": "nodemon -r dotenv/config ./bin/www",
+    "server-debug": "node --inspect -r dotenv/config ./bin/www",
+    "deploy": "ssh -i '../MMC_Global.pem' ubuntu@35.178.205.72"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "aws-sdk": "^2.689.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "fcm-node": "^1.5.2",
+    "firebase-admin": "^9.2.0",
+    "fs": "^0.0.1-security",
+    "helmet": "^3.22.0",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.26.0",
+    "mongoose": "^5.9.10",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "nodemailer": "^6.4.6",
+    "nodemon": "^2.0.4",
+    "pug": "2.0.0-beta11",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0",
+    "stripe": "^8.131.1",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

@@ -1,0 +1,26 @@
+
+info [Tue May 19 2020 23:57:17 GMT+0500 (Pakistan Standard Time)]  {
+  fieldname: 'cover',
+  originalname: 'binoculars.png',
+  encoding: '7bit',
+  mimetype: 'image/png',
+  destination: 'uploads/',
+  filename: '391560d035ab1ed89b765fe912324a4a',
+  path: 'uploads\\391560d035ab1ed89b765fe912324a4a',
+  size: 1448
+}
+info [Tue May 19 2020 23:57:17 GMT+0500 (Pakistan Standard Time)]  [Object: null prototype] {}
+info [Tue May 19 2020 23:57:40 GMT+0500 (Pakistan Standard Time)]  undefined
+info [Tue May 19 2020 23:57:40 GMT+0500 (Pakistan Standard Time)]  { headers: { 'Content-Type': 'multipart/form-data' } }
+
+info [Wed May 20 2020 00:00:44 GMT+0500 (Pakistan Standard Time)]  undefined
+info [Wed May 20 2020 00:00:44 GMT+0500 (Pakistan Standard Time)]  { headers: { 'Content-Type': 'multipart/form-data' } }
+info [Wed May 20 2020 00:01:00 GMT+0500 (Pakistan Standard Time)]  undefined
+info [Wed May 20 2020 00:01:00 GMT+0500 (Pakistan Standard Time)]  { headers: { 'Content-Type': 'multipart/form-data' } }
+
+info [Wed May 20 2020 00:02:20 GMT+0500 (Pakistan Standard Time)]  undefined
+info [Wed May 20 2020 00:02:20 GMT+0500 (Pakistan Standard Time)]  { headers: { 'Content-Type': 'multipart/form-data' } }
+
+info [Wed May 20 2020 00:02:36 GMT+0500 (Pakistan Standard Time)]  undefined
+info [Wed May 20 2020 00:02:36 GMT+0500 (Pakistan Standard Time)]  { headers: { 'Content-Type': 'multipart/form-data' } }
+
